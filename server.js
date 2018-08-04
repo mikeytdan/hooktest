@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 // });
 
 app.get("/", function (req, res, next) {
-    res.send("Hello there");
+    res.send("Hello there 2");
 });
 
 module.exports = app;
